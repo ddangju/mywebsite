@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+
+/* 메인 아이콘 */
+
+.main {
+    display: flex;
+}
+
+.main-icons {
+    margin: 20px 0 0 30px;
+    width: 80px;
+    text-align: center;
+}
+
+.main-canvas {
+    margin: 40px 0px 0px 200px;
+    background: white;
+    width: 800px;
+    height: 500px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: rgba(240, 248, 255, 0.918) black black rgba(240, 248, 255, 0.918);
+}
+
+.canvas-top {
+    width: 800px;
+    height: 30px;
+    background-color: rgb(98, 178, 214);
+    margin: 0;
+}
+
+.canvas-top-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Minimizedwindow-icon {
+    margin-bottom: 10px;
+}
+
+.introduce {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.sub-text {
+    margin-left: 40px;
+}
+
+
+/* 하단부분 */
+
+.bottom_section {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.bottom-top {
+    background-color: rgb(219, 225, 231);
+    height: 3px;
+}
+
+.bottom {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(183, 185, 185);
+    padding-top: 5px;
+}
+
+.bottom-inner {
+    display: flex;
+    height: 12x;
+    width: 105px;
+    margin: -1px 0px 5px 3px;
+    border-style: solid;
+    border-color: aliceblue black black aliceblue;
+    border-width: 1.5px;
+}
+
+.bottom-inner-image {
+    margin-right: 5px;
+    margin-left: 5px;
+}

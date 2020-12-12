@@ -1,0 +1,8 @@
+@import "home.css";
+@import "intro.css";
+@import "infor.css";
+@import "pro.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+}

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+
+/* 하단 */
+
+.bottom_section {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.bottom_top {
+    background-color: rgb(226, 241, 248);
+    height: 3px;
+}
+
+.bottom {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(183, 185, 185);
+    padding-top: 5px;
+}
+
+.bottom-inner {
+    display: flex;
+    height: 12x;
+    width: 105px;
+    margin: -1px 0px 5px 3px;
+    border-style: solid;
+    border-color: aliceblue black black aliceblue;
+    border-width: 1.5px;
+}
+
+.bottom-inner-image {
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: start;
+}
