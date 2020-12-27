@@ -7,46 +7,105 @@
     <link rel="stylesheet" href="style/style.css" />
     <title>yeonjxx website</title>
 </head>
+<style>
+    .main-canvas {
+        height: 300px;
+        width: 370px;
+        margin-left: 350px;
+        margin-top: 100px;
+    }
+    
+    .canvas-top {
+        width: 370px;
+    }
+    
+    .login {
+        margin: 40px 0 0 80px;
+    }
+    
+    .button {
+        margin-top: 20px;
+    }
+    
+    .form_id,
+    .form_pw {
+        font-size: 15px;
+        font-weight: 600;
+    }
+</style>
 
 <body>
 
-    <body style=" background-color:rgb(164, 222, 245); "></body>
+    <body style=" background-color:rgb(112, 206, 243); "></body>
 
     <!-- 메인아이콘 -->
 
-    <div class="main ">
+    <div class="main">
 
         <div class="main-icons ">
-            <a href="index.html"><img class="intro_1 " src="image/image1.png " width="80 "></a>
+            <a href="index.html" title="게임하기"><img class="intro_1 " src="image/image1.png " width="80 "></a>
             <p>Home</p>
-            <a href="intropage/intro.html "><img class="intro_2 " src="image/image2.png " width="80 "></a>
+            <a href="intropage/intro.html" title="자기소개"><img class="intro_2 " src="image/image2.png " width="80 "></a>
             <p>Introduce</p>
-            <a href="intropage/infor.html "><img class="intro_3 " src="image/image3.png " width="80 "></a>
+            <a href="intropage/infor.html" title="블로그"><img class="intro_3 " src="image/image3.png " width="80 "></a>
             <p>Blog</p>
-            <a href="intropage/pro.html"><img class="intro_4 " src="image/image4.png " width="80 "></a>
+            <a href="intropage/pro.html" title="프로젝트"><img class="intro_4 " src="image/image4.png " width="80 "></a>
             <p>Project</p>
         </div>
+    </div>
+
+
+    <div class="main-canvas">
+        <div class="canvas-top">
+
+            <div class="canvas-top-icons">
+                <image class="Minimizedwindow-icon" src="image/windowminimize.png" width="15"></image>
+                <image class="close-icon" src="image/close.png" width="25"></image>
+            </div>
+            <div class="login">
+                <form action="intropage/updownGame.html">
+                    <p class="form_id">아이디 </p> <input placeholder="ID" type="text" style="width:150px; height:25px;" />
+                    <p class="form_pw"> 비밀번호 </p> <input placeholder="Password" type="password" style="width:150px; height:25px;" />
+                    <div class="button">
+                        <button type="submit">Login</button>
+                    </div>
+
+
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
 
 
 
 
-        <!-- 하단부분 -->
-        <div class="bottom_section ">
-
-            <div class="bottom_top " width="100 " height="20 "></div>
-
-            <div class="bottom ">
-                <div class="bottom-inner">
-                    <img class="bottom-inner-image" src="image/badge.png " width="30 " height="20 ">
-                    <div class="bottom-inner-start">시작</div>
-
-                </div>
 
 
+
+
+
+
+    <!-- 하단부분 -->
+    <div class="bottom_section ">
+
+        <div class="bottom_top " width="100 " height="20 "></div>
+
+        <div class="bottom ">
+            <div class="bottom-inner">
+                <img class="bottom-inner-image" src="image/badge.png " width="30 " height="20 ">
+                <div class="bottom-inner-start">시작</div>
 
             </div>
+
+
+
         </div>
     </div>
+
 
 </body>
 

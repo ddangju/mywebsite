@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>up&down game</title>
+    <Style>
+        body {
+            margin: 200px;
+            text-align: center;
+            background-color: rgb(151, 241, 226);
+        }
+        
+        button {
+            background-color: rgb(255, 255, 255);
+            padding: 5px 15px;
+        }
+        
+        input {
+            background-color: white;
+            padding: 5px 15px;
+        }
+        
+        .title {
+            font-size: 25px;
+        }
+        
+        #title_name {
+            font-size: 18px;
+            font-weight: bolder;
+        }
+        
+        #title_manual {
+            font-weight: normal;
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="userName"></div>
+    <div class="title">
+        <h1>up down Game</h1>
+        <p id="title_name"> up & down 게임설명 : <span id="title_manual">1부터100까지 숫자를 입력해주세요! (횟수는 무제한)</span></p>
+        <p id="title_life">Life: <span class="lifeCnt">5</span></p>
+    </div>
+    <form action="">
+        <input type="text" id="input" maxlength="3">
+        <button id="formBtn">Try!</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="../script/updownGame.js"></script>
+
+</body>
+
+</html>
