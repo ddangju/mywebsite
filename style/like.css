@@ -42,29 +42,11 @@ body {
     margin-bottom: 10px;
 }
 
-.canvas-title {
-    display: flex;
-    position: relative;
-}
+.canvas-title {}
 
-.back-img {
-    width: 800px;
-    height: 400px;
-}
+.photo2 {}
 
-.photo {
-    position: absolute;
-    left: 0px;
-    width: 300px;
-}
-
-.like {
-    position: absolute;
-    left: 300px;
-    top: 340px;
-    font-size: 50px;
-    font-style: inherit;
-}
+.title-text {}
 
 
 /* 하단부분 */

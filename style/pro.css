@@ -1,164 +1,113 @@
-                            body {
-                            margin: 0;
-                        }
-                        /* 메인 아이콘 */
-                        
-                        .main {
-                            display: flex;
-                        }
-                        
-                        .main-icons {
-                            margin: 20px 0 0 30px;
-                            width: 80px;
-                            text-align: center;
-                        }
-                        
-                        .main-canvas {
-                            width: 800px;
-                            height: 500px;
-                            border-style: solid;
-                            border-width: 3px 3px 3px 3px;
-                            border-color: rgba(240, 248, 255, 0.918) black black rgba(240, 248, 255, 0.918);
-                        }
-                        
-                        .canvas-top {
-                            width: 800px;
-                            height: 30px;
-                            background-color: rgb(98, 178, 214);
-                            margin: 0;
-                        }
-                        
-                        .canvas-top-icons {
-                            display: flex;
-                            justify-content: flex-end;
-                        }
-                        
-                        .Minimizedwindow-icon {
-                            margin-bottom: 10px;
-                        }
-                        /* 하단 start 부분 */
-                        
-                        .bottom_section {
-                            position: fixed;
-                            bottom: 0px;
-                            width: 100%;
-                        }
-                        
-                        .bottom-top {
-                            background-color: rgb(219, 225, 231);
-                            height: 3px;
-                        }
-                        
-                        .bottom {
-                            display: flex;
-                            height: 30px;
-                            width: 100%;
-                            background-color: rgb(183, 185, 185);
-                            padding-top: 5px;
-                        }
-                        
-                        .bottom-inner {
-                            display: flex;
-                            height: 12x;
-                            width: 105px;
-                            margin: -1px 0px 5px 3px;
-                            border-style: solid;
-                            border-color: aliceblue black black aliceblue;
-                            border-width: 1.5px;
-                        }
-                        
-                        .bottom-inner-image {
-                            margin-right: 5px;
-                            margin-left: 5px;
-                            body {
-                                margin: 0;
-                            }
-                            /* 메인 아이콘 */
-                            .main {
-                                display: flex;
-                            }
-                            .main-icons {
-                                margin: 20px 0 0 30px;
-                                width: 80px;
-                                text-align: center;
-                            }
-                            .main-canvas {
-                                margin: 40px 0px 0px 200px;
-                                /* background: rgb(245, 242, 214); */
-                                width: 800px;
-                                height: 500px;
-                                border-style: solid;
-                                border-width: 3px 3px 3px 3px;
-                                border-color: rgba(240, 248, 255, 0.918) black black rgba(240, 248, 255, 0.918);
-                            }
-                            .canvas-top {
-                                width: 800px;
-                                height: 30px;
-                                background-color: rgb(98, 178, 214);
-                                margin: 0;
-                            }
-                            .canvas-top-icons {
-                                display: flex;
-                                justify-content: flex-end;
-                            }
-                            .Minimizedwindow-icon {
-                                margin-bottom: 10px;
-                            }
-                            .arrow {
-                                margin: 0;
-                            }
-                            .g-text {
-                                font-size: 30px;
-                                margin: 10px 0px 0px 150px;
-                                background: lemonchiffon;
-                                width: 90px;
-                            }
-                            .arrow-image {
-                                margin-left: 140px;
-                            }
-                            .blog {
-                                display: flex;
-                                justify-content: space-around;
-                                margin-left: 50px;
-                            }
-                            .arrow-image2 {
-                                margin-left: 450px;
-                                margin-top: 0px;
-                            }
-                            .t-text {
-                                font-size: 30px;
-                                margin: 0px 0px 0px 460px;
-                                background: rgb(245, 208, 208);
-                                width: 90px;
-                                border-radius: inherit;
-                            }
-                            /* 하단 start 부분 */
-                            .bottom_section {
-                                position: fixed;
-                                bottom: 0px;
-                                width: 100%;
-                            }
-                            .bottom-top {
-                                background-color: rgb(219, 225, 231);
-                                height: 3px;
-                            }
-                            .bottom {
-                                display: flex;
-                                height: 30px;
-                                width: 100%;
-                                background-color: rgb(183, 185, 185);
-                                padding-top: 5px;
-                            }
-                            .bottom-inner {
-                                display: flex;
-                                height: 12x;
-                                width: 105px;
-                                margin: -1px 0px 5px 3px;
-                                border-style: solid;
-                                border-color: aliceblue black black aliceblue;
-                                border-width: 1.5px;
-                            }
-                            .bottom-inner-image {
-                                margin-right: 5px;
-                                margin-left: 5px;
-                            }
+body {
+    margin: 0;
+}
+
+
+/* 메인 아이콘 */
+
+.main {
+    display: flex;
+}
+
+.main-icons {
+    margin: 20px 0 0 30px;
+    width: 80px;
+    text-align: center;
+}
+
+.main-canvas {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: rgba(240, 248, 255, 0.918) black black rgba(240, 248, 255, 0.918);
+}
+
+.canvas-top {
+    width: 800px;
+    height: 30px;
+    background-color: rgb(98, 178, 214);
+    margin: 0;
+}
+
+.canvas-top-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Minimizedwindow-icon {
+    margin-bottom: 10px;
+}
+
+
+/* 윈도우내부 */
+
+.js-clock {
+    position: absolute;
+    top: 50px;
+    right: 400px;
+}
+
+.clock-title {
+    font-size: 80px;
+    color: rgb(104, 104, 104)
+}
+
+.js-form {
+    position: absolute;
+    top: 300px;
+    right: 400px;
+    border-radius: 3px;
+}
+
+.form-text {
+    border: 5px;
+    font-size: 20px;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+
+/* 하단 start 부분 */
+
+.bottom_section {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.bottom-top {
+    background-color: rgb(219, 225, 231);
+    height: 3px;
+}
+
+.bottom {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(183, 185, 185);
+    padding-top: 5px;
+}
+
+.bottom-inner {
+    display: flex;
+    height: 12x;
+    width: 105px;
+    margin: -1px 0px 5px 3px;
+    border-style: solid;
+    border-color: aliceblue black black aliceblue;
+    border-width: 1.5px;
+}
+
+.bottom-inner-image {
+    margin-right: 5px;
+    margin-left: 5px;
+}
