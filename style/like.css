@@ -24,6 +24,12 @@ body {
     border-style: solid;
     border-width: 3px 3px 3px 3px;
     border-color: rgba(240, 248, 255, 0.918) black black rgba(240, 248, 255, 0.918);
+    position: relative;
+}
+
+.title-text {
+    display: flex;
+    margin-top: 100px;
 }
 
 .canvas-top {
@@ -42,11 +48,14 @@ body {
     margin-bottom: 10px;
 }
 
-.canvas-title {}
+.canvas-title {
+    position: relative;
+}
 
-.photo2 {}
-
-.title-text {}
+.introduce {
+    position: absolute;
+    left: 50px;
+}
 
 
 /* 하단부분 */
