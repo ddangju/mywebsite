@@ -46,12 +46,6 @@ body {
     position: relative;
 }
 
-.photo2 {
-    position: absolute;
-    left: -500px;
-    top: 330px;
-}
-
 .introduce {
     position: absolute;
     left: 50px;
@@ -59,8 +53,10 @@ body {
 
 .title-text {
     position: absolute;
-    margin-top: 100px;
-    font-size: 50px;
+    left: -250px;
+    top: 400px;
+    font-weight: 700;
+    font-style: inherit;
 }
 
 
