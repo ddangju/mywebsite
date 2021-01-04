@@ -24,12 +24,6 @@ body {
     border-style: solid;
     border-width: 3px 3px 3px 3px;
     border-color: rgba(240, 248, 255, 0.918) black black rgba(240, 248, 255, 0.918);
-    position: relative;
-}
-
-.title-text {
-    display: flex;
-    margin-top: 100px;
 }
 
 .canvas-top {
@@ -52,9 +46,21 @@ body {
     position: relative;
 }
 
+.photo2 {
+    position: absolute;
+    left: -500px;
+    top: 330px;
+}
+
 .introduce {
     position: absolute;
     left: 50px;
+}
+
+.title-text {
+    position: absolute;
+    margin-top: 100px;
+    font-size: 50px;
 }
 
 
